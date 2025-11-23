@@ -48,13 +48,6 @@ Project applying Oracle's Agent Spec to detect fraudulent activity and money lau
 - Sensitive-data handling, access control, and explainability prioritized
 - Intended to assist analysts — final decisions remain human responsibility
 
-## Repo Structure (suggested)
-- agents/         — agent implementations and connectors
-- models/         — model training and artifacts (gitignored)
-- notebooks/      — analysis and experiments (no raw data)
-- config/         — pipeline and deployment configs
-- docs/           — spec mapping, runbooks, audit details
-
 ## Contributing & License
 - Contributing: follow internal compliance and data handling guidelines before submitting code or experiments
 - License: MIT (or internal UBS license as required)
