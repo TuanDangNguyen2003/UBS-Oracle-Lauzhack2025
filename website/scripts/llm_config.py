@@ -3,7 +3,7 @@ from pyagentspec.llms import OllamaConfig
 
 llm_config = OllamaConfig(
     name="ollama-llm",
-    model_id="llama3:latest",     # from `ollama list`
+    model_id="gpt-oss:20b",     # from `ollama list`
     url="http://localhost:11434"  # Ollama server
 )
 '''# file: llm_config.py
